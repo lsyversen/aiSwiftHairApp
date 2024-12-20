@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23G93" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="HairComparison" representedClassName="HairComparison" syncable="YES" codeGenerationType="class">
+        <attribute name="comparisonDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="firstPersonImageData" optional="YES" attributeType="Binary"/>
+        <attribute name="firstPersonName" optional="YES" attributeType="String"/>
+        <attribute name="secondPersonImageData" optional="YES" attributeType="Binary"/>
+        <attribute name="secondPersonName" optional="YES" attributeType="String"/>
+        <attribute name="winnerName" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Hairline" representedClassName="Hairline" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="hairlineImageData" optional="YES" attributeType="Binary"/>
+        <attribute name="hairlossStage" optional="YES" attributeType="String"/>
+        <attribute name="topOfHeadImageData" optional="YES" attributeType="Binary"/>
+        <attribute name="uuid" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="ProgressPic" representedClassName="ProgressPic" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+    </entity>
+    <entity name="ScanResult" representedClassName="ScanResult" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="faceShape" optional="YES" attributeType="String"/>
+        <attribute name="frizzlevel" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="haircolor" optional="YES" attributeType="String"/>
+        <attribute name="hairdensity" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="hairthickness" optional="YES" attributeType="String"/>
+        <attribute name="hairtype" optional="YES" attributeType="String"/>
+        <attribute name="imageData" optional="YES" attributeType="Binary"/>
+        <attribute name="overall" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="potential" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="shine" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="uuid" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="volume" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="TryOnHairstyle" representedClassName="TryOnHairstyle" syncable="YES" codeGenerationType="class">
+        <attribute name="beforeImage" optional="YES" attributeType="Binary"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="hairstyle" optional="YES" attributeType="String"/>
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="uuid" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES" codeGenerationType="class">
+        <attribute name="isPaidUser" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+</model>
